@@ -1,3 +1,5 @@
 fun checkInRange(date: MyDate, first: MyDate, last: MyDate): Boolean {
-    return TODO()
+    val range = first..last
+
+    return date in range
 }
